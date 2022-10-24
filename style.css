@@ -1,0 +1,256 @@
+ 
+ 
+body{
+    background-image: url('./PREVIA/0001_FONDOV2.jpg');
+    background-size: unset; 
+    width: 100%;
+    height: 100%;  
+} 
+
+#divTextLeft{
+    display: flex;
+    align-items: left;
+    text-align: left;
+    width: 400px;
+    float: left;
+}
+
+#divTextRight{
+    display:flex;
+    align-items:flex-start;
+    text-align:start;
+    width: 400px;
+    float: right;
+}
+
+#textVideoLeft{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    display:none ; 
+
+    margin-top: 120px;
+    margin-left: 50px; 
+}
+
+#textVideoRight{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    display:none ; 
+
+    margin-top: 120px;
+    margin-right: 50px; 
+}
+
+#textTitulo{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 200px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#textSubtitulo{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: small;
+    position: absolute;
+    top: 140px;
+    left: 100px;
+}
+
+
+  
+#vid0, #vid1, #vid2, #vid3, #vid10, #vid12, #vid13, #vid19, #vid21 {
+    width: 150px; 
+    margin: 0;
+    padding: 0;  
+}
+
+#vid4, #vid5 {
+    width: 280px; 
+    margin: 0;
+    padding: 0;  
+}
+
+#vid7, #vid9, #vid11, #vid16, #vid18 {
+    width: 100px; 
+    margin: 0;
+    padding: 0;  
+}
+
+#vid6, #vid8, #vid14, #vid15, #vid17, #vid20, #vid22 {
+    width: 70px; 
+    margin: 0;
+    padding: 0;  
+}
+
+#vid0{
+    transform: rotate(-45deg);  
+    position: absolute;
+    top: 670px;
+    left: 65px;
+    z-index: 0;  
+}
+
+#vid1{
+    transform: rotate(-55deg);  
+    position: absolute;
+    top: 605px;
+    left: 105px;
+    z-index: 0;  
+}
+
+#vid2{
+    transform: rotate(85deg);  
+    position: absolute;
+    top: 415px;
+    left: 300px;
+    z-index: 0;  
+}  
+
+#vid3{
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 560px;
+    left: 240px;
+    z-index: 0;
+}
+
+#vid4{
+    transform: rotate(40deg);
+    position: absolute;
+    top: 370px;
+    left: 475px;
+} 
+
+#vid5{
+    transform: rotate(130deg);
+    position: absolute;
+    top: 462px;
+    left: 560px;
+} 
+
+#vid6{
+    transform: rotate(130deg);
+    position: absolute;
+    top: 190px;
+    left: 615px;
+} 
+
+#vid7{
+    transform: rotate(0deg);
+    position: absolute;
+    top: 60px;
+    left: 700px;
+} 
+
+#vid8{
+    transform: rotate(130deg);
+    position: absolute;
+    top: 250px;
+    left: 570px;
+} 
+
+#vid9{
+    transform: rotate(220deg);
+    position: absolute;
+    top: 160px;
+    left: 780px;
+} 
+
+#vid10{
+    transform: rotate(300deg);
+    position: absolute;
+    top: 250px;
+    left: 890px;
+} 
+
+#vid11{
+    transform: rotate(180deg);
+    position: absolute;
+    top: 345px;
+    left: 1000px;
+} 
+
+#vid12{
+    display: none
+    
+} 
+
+#vid13{
+    transform: rotate(-50deg);
+    position: absolute;
+    top: 175px;
+    left: 1060px;
+} 
+
+#vid14{
+    transform: rotate(0deg);
+    position: absolute;
+    top: 695px;
+    left: 1165px;
+} 
+
+#vid15{
+    transform: rotate(30deg);
+    position: absolute;
+    top: 68px;
+    left: 805px;
+} 
+
+#vid16{
+    transform: rotate(190deg);
+    position: absolute;
+    top: 120px;
+    left: 690px;
+} 
+
+#vid17{
+    transform: rotate(30deg);
+    position: absolute;
+    top: 40px;
+    left: 827px;
+} 
+
+#vid18{
+    transform: rotate(170deg);
+    position: absolute;
+    top: 380px;
+    left: 1485px;
+}
+
+#vid19{
+    transform: rotate(-125deg);
+    position: absolute;
+    top: 825px;
+    left: 1240px;
+}
+
+#vid20{
+    transform: rotate(30deg);
+    position: absolute;
+    top: 95px;
+    left: 780px;
+}
+
+#vid21{
+    transform: rotate(170deg);
+    position: absolute;
+    top: 395px;
+    left: 1200px;
+}
+
+#vid22{
+    transform: rotate(-10deg);
+    position: absolute;
+    top: 625px;
+    left: 1132px;
+}
+
+
+
+
+
